@@ -1,0 +1,164 @@
+@use '../variables'
+@use '../mixins'
+    
+.technologies-container
+    margin-bottom: 1rem
+
+    .technologies-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+        .container-barra 
+            width: 200px
+            height: 15px
+
+        .barra
+            height: 100%
+            background: variables.$gradient
+            border-radius: 20px
+            animation-name: barra
+            animation-duration: 3s
+
+            &::after
+                content: "100%"
+                font-weight: 400
+                font-size: 14px
+                display: block
+                color: variables.$text-color-secondary
+                text-align: right
+                margin-right: 5px 
+                position: relative
+                bottom: 3px
+
+        .barra-mysql
+            height: 100%
+            background: variables.$gradient
+            border-radius: 20px
+            animation-name: barra-mysql
+            animation-duration: 3s
+            width: 50%
+
+            &::after
+                content: "50%"
+                font-weight: 400
+                font-size: 14px
+                display: block
+                color: variables.$text-color-secondary
+                text-align: right
+                margin-right: 5px 
+                position: relative
+                bottom: 3px
+        
+        .barra-2
+            height: 100%
+            background: variables.$gradient
+            border-radius: 20px
+            animation-name: barra-2
+            animation-duration: 3s
+            width: 75%
+
+            &::after
+                content: "75%"
+                font-weight: 400
+                font-size: 14px
+                display: block
+                color: variables.$text-color-secondary
+                text-align: right
+                margin-right: 5px 
+                position: relative
+                bottom: 3px
+
+        .barra-react
+            height: 100%
+            background: variables.$gradient
+            border-radius: 20px
+            animation-name: barra-react
+            animation-duration: 3s
+            width: 65%
+
+            &::after
+                content: "65%"
+                font-weight: 400
+                font-size: 14px
+                display: block
+                color: variables.$text-color-secondary
+                text-align: right
+                margin-right: 5px 
+                position: relative
+                bottom: 3px
+
+    .technology-card
+        @include mixins.center
+        gap: 1rem
+        padding: 1rem
+        border: 1px solid #333
+        width: 45%
+        border-radius: variables.$card-border-radius 
+
+        h3
+            color: variables.$text-color
+            margin-bottom: 1rem
+
+        svg
+            font-size: 6rem
+
+    #html
+        svg
+            color: #E44D26
+
+    #css
+        svg
+            color: #1572B6
+
+    #js
+        svg
+            color: #F0DB4F
+
+    #sass
+        svg
+            color: #e811ab
+
+    #mysql
+        svg
+            color: #00618A
+
+    #react
+        svg
+            color: #61DAFB
+
+
+@keyframes barra
+  from
+    width: 20%
+  to
+    width: 100%
+
+
+@keyframes barra-2
+  from
+    width: 20%
+  to
+    width: 75%
+
+@keyframes barra-mysql
+  from
+    width: 20%
+  to
+    width: 50%
+
+@keyframes barra-react
+  from
+    width: 20%
+  to
+    width: 65%
+
+
+@media ( max-width: 480px ) 
+
+  .technologies-grid
+    flex-direction: column
+
+    .technology-card
+        width: 100%
+        flex-direction: column
