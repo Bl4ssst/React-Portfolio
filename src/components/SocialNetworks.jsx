@@ -7,7 +7,7 @@ const Socialnetworks = () => {
             <a href="https://github.com/Bl4ssst" className="social-btn" id="github">
                 <FaGithub />
             </a>
-            <a href="#" className="social-btn" id="linkedin">
+            <a href="https://www.linkedin.com/in/igor-moreira-2b906024a" className="social-btn" id="linkedin">
                 <FaLinkedinIn />
             </a>
         </section>

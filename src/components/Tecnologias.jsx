@@ -30,10 +30,6 @@ import {
               <DiHtml5 />
               <div className="technology-info">
                 <h3>HTML5</h3>
-                <div className="container-barra">
-                  <div className="barra">
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -41,10 +37,6 @@ import {
               <DiCss3 />
               <div className="technology-info">
                 <h3>CSS3</h3>
-                <div className="container-barra">
-                  <div className="barra">
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -52,10 +44,6 @@ import {
               <DiJsBadge />
               <div className="technology-info">
                 <h3>Javascript</h3>
-                <div className="container-barra">
-                  <div className="barra-2">
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -63,10 +51,6 @@ import {
               <DiSass />
               <div className="technology-info">
                 <h3>SASS</h3>
-                <div className="container-barra">
-                  <div className="barra-2">
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -74,10 +58,6 @@ import {
               <DiMysql />
               <div className="technology-info">
                 <h3>MySQL</h3>
-                <div className="container-barra">
-                  <div className="barra-mysql">
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -85,10 +65,6 @@ import {
               <DiReact />
               <div className="technology-info">
                 <h3>React</h3>
-                <div className="container-barra">
-                  <div className="barra-react">
-                  </div>
-                </div>
               </div>
             </div>
         </div>

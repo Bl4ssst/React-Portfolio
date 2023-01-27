@@ -69,8 +69,19 @@
             margin-top: 1.5rem
                 
 
+@media ( max-width: 1440px ) 
+    #projetos-container
+
+        .card-grid
+
+            .card
+                width: 240px
+
+                img 
+                    width: 200px
+
+
 @media ( max-width: 480px ) 
-    
     #projetos-container 
         width: 350px
 
@@ -78,5 +89,20 @@
             flex-direction: column
             flex-wrap: nowrap
             align-items: center
+            gap: 2px
         
+@media ( max-width: 320px ) 
+    #projetos-container 
+        width: 305px
+        padding: 30px
 
+        .card-grid
+            gap: 2px
+        
+            .card
+                width: 280px
+                padding: 20px 15px 20px 15px
+                margin-top: 20px
+
+                img 
+                    width: auto

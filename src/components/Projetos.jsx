@@ -11,7 +11,7 @@ const ProjectContainer = () => {
             <div className='card-grid'>
                 <div className='card'>
                     <div className='icon'>
-                        <img className='projeto1' src="../public/projeto1.png" alt="" />
+                        <img className='projeto1' src="/public/projeto1.png" alt="" />
                     </div>
                     <div className='content'>
                         <h3>Projeto 1</h3>
