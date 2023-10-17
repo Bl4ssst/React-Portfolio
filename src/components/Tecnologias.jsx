@@ -1,6 +1,6 @@
 import {
     DiHtml5,
-    DiCss3,
+    DiNodejs,
     DiJsBadge,
     DiSass,
     DiMysql,
@@ -11,7 +11,7 @@ import {
   
   const technologies = [
     { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-    { id: "css", name: "CSS3", icon: <DiCss3 /> },
+    { id: "node", name: "Node", icon: <DiNodejs /> },
     { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
     { id: "sass", name: "SASS", icon: <DiSass /> },
     { id: "mysql", name: "MySQL", icon: <DiMysql /> },
@@ -34,9 +34,9 @@ import {
             </div>
 
             <div className="technology-card" id="css">
-              <DiCss3 />
+              <DiNodejs />
               <div className="technology-info">
-                <h3>CSS3</h3>
+                <h3>Node</h3>
               </div>
             </div>
 

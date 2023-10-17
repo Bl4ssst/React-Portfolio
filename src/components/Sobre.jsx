@@ -3,10 +3,13 @@ const AboutContainer = () => {
         <section className="about">
         <h2>Sobre mim</h2>
         <p>
-            Sou um desenvolvedor Front-end Junior. Interessado em Tecnologia desde criança. Gosto de utilizar meus conhecimentos em ferramentas como HTML, CSS, JS, ReactJS e Bootstrap para criar belos sites otimizados, modernos, e responsivos. 
+            Olá, eu sou um desenvolvedor front-end e estou entusiasmado em me apresentar a você. Sou especializado em criar interfaces de usuário atraentes e intuitivas que permitem aos usuários interagir com sites e aplicativos de forma fácil e agradável.
         </p>
         <p>
-            Busco a melhor qualidade e desempenho em cada projeto. Estou sempre estudando novas Tecnologias para aumentar o nível do meu trabalho a cada dia mais.
+            Tenho habilidades interpessoais sólidas e posso colaborar efetivamente com outros membros da equipe de desenvolvimento, designers e gerentes de projeto. Sou capaz de trabalhar em projetos individuais ou em equipe, sempre priorizando a qualidade e o cumprimento dos prazos.
+        </p>
+        <p>
+            Se você estiver procurando por um desenvolvedor front-end confiável e experiente, e com habilidades sólidas, não hesite em entrar em contato. Estou animado para explorar novas oportunidades de trabalho e contribuir para projetos emocionantes e desafiadores.        
         </p>
         </section>
     );
